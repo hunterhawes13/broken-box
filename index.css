@@ -1,0 +1,107 @@
+body {
+  margin-top: 60px;
+}
+
+.main-navigation {
+  background-color: #ccc;
+  border: 5px dotted red;
+  display:block;
+  margin-bottom: 40px;
+}
+
+.main-navigation > nav-item {
+  border:3px solid blue;
+  display:block;
+}
+
+.side-navigation {
+  background: red;
+  display:block;
+  width: 400px;
+}
+
+.kitten {
+  float: left;
+  height: 200px;
+  margin: 20px;
+}
+
+.side-navigation > nav-item {
+  border: 3px solid #73AD21;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+}
+
+.main-article {
+  background-color: indigo;
+  color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 60px;
+  margin-bottom: 120px;
+  padding: 60px;
+  width: 760px;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-inline-ancestors {
+  text-align: center;
+}
+
+inspirational-quote {
+  background-color: red;
+  display: block;
+  text-align: left;
+}
+
+author {
+  background-color: #ccc;
+  display: block;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+  z-index: 100;
+}
+
+editor {
+  background-color: cadetblue;
+  display: block;
+  height: 200px;
+  position: absolute;
+  bottom: 25%;
+  right: 10%;
+  width: 500px;
+  z-index: 50;
+}
+
+account-tools {
+  background: orange;
+  display: block;
+  height: 50px;
+  position: fixed;
+  right: 20px;
+  width: 25%;
+  z-index: 75;
+}
+
+footer {
+  background-color: beige;
+  margin: 60px auto;
+  width: 90%;
+
+}
+
+close-footer {
+  position: relative;
+  background-color: brown;
+  color: white;
+  left: 750px;;
+}
+
